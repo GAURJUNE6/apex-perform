@@ -1,5 +1,12 @@
 {
   "buildCommand": "",
   "outputDirectory": ".",
-  "framework": null
+  "framework": null,
+  "redirects": [
+    {
+      "source": "/?payment=success",
+      "destination": "/dashboard",
+      "permanent": true
+    }
+  ]
 }
